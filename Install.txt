@@ -1,3 +1,4 @@
+# Ejecutar en la terminal:
 mkdir nombre_proyecto
 cd nombre_proyecto
 py -m venv venv
