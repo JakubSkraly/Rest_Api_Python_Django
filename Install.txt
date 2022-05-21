@@ -9,4 +9,5 @@ py manage.py createsuperuser
 user: Username
 email: example@email.com
 pass: Password
+py manage.py collectstatic
 py manage.py runserver

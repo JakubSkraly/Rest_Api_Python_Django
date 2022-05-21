@@ -129,6 +129,17 @@ TIME_ZONE = 'America/Lima'
 
 STATIC_URL = 'static/'
 
+# Crear la carpeta assets
+# STATICFILES_DIRS=[BASE_DIR / 'assets',]
+
+# Esta carpeta de crea cuando se ejecuta el comando collectstatic
+# STATIC_ROOT='/home/django.cloudhosty.tk/public_html/static'
+# STATIC_URL = '/static/'
+
+# Crear la carpeta media
+# MEDIA_ROOT='/home/django.cloudhosty.tk/public_html/media'
+# MEDIA_URL='/media/'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
