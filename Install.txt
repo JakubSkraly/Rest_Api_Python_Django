@@ -1,0 +1,12 @@
+mkdir nombre_proyecto
+cd nombre_proyecto
+py -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+py manage.py makemigrations
+py manage.py migrate
+py manage.py createsuperuser
+user: Username
+email: example@email.com
+pass: Password
+py manage.py runserver
