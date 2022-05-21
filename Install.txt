@@ -1,4 +1,4 @@
-# Ejecutar en la terminal:
+# Ejecutar en la terminal XD:
 mkdir nombre_proyecto
 cd nombre_proyecto
 py -m venv venv
