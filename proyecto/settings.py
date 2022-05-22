@@ -123,6 +123,7 @@ TIME_ZONE = 'America/Lima'
 
 # USE_TZ = True
 
+X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
