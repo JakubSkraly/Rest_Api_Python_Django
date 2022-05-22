@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # para la api
+    'corsheaders',
     # agrego las apps del proyectotesis
     'inicio.apps.InicioConfig',
     'api.apps.ApiConfig'
@@ -52,7 +54,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # para la api
+    'corsheaders.middleware.CorsMiddleware',
 ]
+
+# para front-end React JS pueto 300 en localhost
+CORS_ORIGIN_WHITELIST = (
+    'http://localhost:3000',
+)
 
 ROOT_URLCONF = 'proyecto.urls'
 
