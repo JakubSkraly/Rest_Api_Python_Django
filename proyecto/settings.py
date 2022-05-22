@@ -29,6 +29,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CORS_ALLOW_CREDENTIALS = True
+
+CORS_ORIGIN_ALLOW_ALL = True
+
+# urls de las api si tiene certificado https
+CSRF_TRUSTED_ORIGINS = ['https://www.django.cybercloud.tk','https://django.cybercloud.tk']
+
+CORS_REPLACE_HTTPS_REFERER = True
+
+CSRF_COOKIE_DOMAIN = 'cybercloud.tk'
 
 # Application definition
 
